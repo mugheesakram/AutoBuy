@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AutoBuy</string>
+    <string name="retry">Retry</string>
+    <string name="screen_car_model_search_hint">Search here</string>
+    <string name="screen_car_model_title_text"> %1s Car Models</string>
+    <string name="screen_car_model_year_title_text"> %1s Car Models by Year</string>
+</resources>

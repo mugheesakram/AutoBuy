@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="10dp"
+    app:strokeColor="@color/black">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="25sp"
+        tools:text="BMW" />
+
+</com.google.android.material.card.MaterialCardView>

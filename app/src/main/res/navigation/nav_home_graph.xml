@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home_graph"
+    app:startDestination="@id/manufacturersFragment">
+
+    <fragment
+        android:id="@+id/manufacturersFragment"
+        android:name="com.technology.autobuy.ui.manufacturers.ManufacturersFragment"
+        android:label="ManufacturersFragment"
+        tools:layout="@layout/fragment_manufacturers">
+        <action
+            android:id="@+id/action_manufacturersFragment_to_carTypeFragment"
+            app:destination="@id/carTypeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/carTypeFragment"
+        android:name="com.technology.autobuy.ui.cartypes.CarTypeFragment"
+        android:label="CarTypeFragment"
+        tools:layout="@layout/fragment_car_type" >
+        <action
+            android:id="@+id/action_carTypeFragment_to_carTypeDateFragment"
+            app:destination="@id/carTypeDateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/carTypeDateFragment"
+        android:name="com.technology.autobuy.ui.cartypedates.CarTypeDateFragment"
+        android:label="CarTypeDateFragment" />
+</navigation>
