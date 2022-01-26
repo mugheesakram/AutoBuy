@@ -43,5 +43,8 @@ For gradle, I have used Kotlin DSL. For me, It keeps gradle dependencies neat an
 understandable.
 
 ## How to run
-
+Create a properties file in buildSrc folder and name it apikeys.properties
+ADD two variables in it: 
+BASE_URL = add url till v1/
+API_SECRET_KEY = API secret key goes here
 Just simply import this project with your version Control and run. I am sure it will not produce any bug.
